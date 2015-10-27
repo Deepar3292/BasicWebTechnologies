@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="virtual_root" mtime="1445882788" type="string">
-		<stringvalue>file:///home/deepa/fibonacciSeries</stringvalue>
+	<entry name="virtual_root" mtime="1445966924" type="string">
+		<stringvalue>file:///home/deepa/Hello-World</stringvalue>
 	</entry>
-	<entry name="root" mtime="1445882788" type="string">
+	<entry name="root" mtime="1445966924" type="string">
 		<stringvalue>file:///</stringvalue>
 	</entry>
-	<entry name="tree_view" mtime="1445882788" type="bool" value="true"/>
+	<entry name="tree_view" mtime="1445966924" type="bool" value="true"/>
 </gconf>

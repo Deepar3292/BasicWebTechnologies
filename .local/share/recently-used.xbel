@@ -82,4 +82,30 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///media/deepa/B498-74ED/nodejs.txt" added="2015-10-27T17:23:50Z" modified="2015-10-27T17:25:58Z" visited="2015-10-27T17:23:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-10-27T17:25:58Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/deepa/Hello-World/README.md" added="2015-10-27T17:28:44Z" modified="2015-10-27T17:30:16Z" visited="2015-10-27T17:28:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-10-27T17:30:16Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
