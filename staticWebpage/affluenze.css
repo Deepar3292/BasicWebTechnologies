@@ -1,0 +1,155 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	
+}
+
+#big_wrapper { 
+	max-width: 100%;
+	margin: 50px;
+	margin-top: 10px;
+ }
+ 
+#top_portion {
+	background-image: url(building.jpg);
+	background-size: 100%;
+	opacity: 0.5;
+	filter: contrast(100%);
+	height: 700px;
+}
+
+
+#nav_list li {
+	display: inline-block;
+	padding-right: 10px;
+	
+	
+}
+#nav_list ul{
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 200px;
+	
+}
+
+#nav_list a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#nav_list a:hover {
+	text-decoration: underline;
+}
+
+
+
+#center img{
+	margin-top: 100px;
+	padding-top: 100px;
+	margin-left: 100px;
+	padding-left: 100px;
+	height: 440px;
+	width: 700px;
+	opacity: 0.75;
+	
+}
+#mobile_pic {
+	height: 700px;
+}
+
+img.mobile  {
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: -300px;
+	opacity: 1;
+}
+
+a.arrow {
+  
+  color: #2C7DE6;
+}
+
+a:hover {
+  color: red;
+}
+
+a.arrow:after {
+    position: absolute; /* Prevent underline of arrow */
+    margin-left:1000px; /* Add a little space between text and arrow */
+    content: ""; /* Unicode hex for &raquo;\00cc */
+	margin-top: -300px;
+	border-top: 15px dotted transparent;
+	border-right: 15px dotted transparent;
+	border-bottom: 15px dotted transparent;
+	border-left: 15px dotted blue;
+	width: 0px;
+	height: 0px;
+}
+
+#mid_portion {
+	height: 800px;
+}
+header,footer,li {
+	display: block;
+}
+
+ 
+ 
+ #footer {
+	
+	background-color: black;
+	color: #C0C0C0;
+ }
+ 
+ footer {
+	text-align: center;
+	padding: 40px;
+ }
+ 
+
+
+
+#column 
+{
+	padding-right: 200px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 0px;  
+	padding-left: 200px;
+	padding-right: 400px;
+	padding-top: 30px;
+
+}
+
+#column li {
+	font-size: 12px;
+	color: #C0C0C0;
+	padding: 5px;
+	
+}
+#column a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#column a:hover {
+	text-decoration: underline;
+}
+#text_bar {
+	padding-right: 100px;
+	float: right;
+	margin-right: 0px;
+	margin-top: -250px;
+	
+}
+p {
+	margin-bottom: 10px;
+}
+input {
+	height: 30px;
+	size: 50px;
+	float: right;
+	position: relative;
+}
