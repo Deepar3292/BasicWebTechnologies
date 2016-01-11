@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8"/>
+		<title>
+		  User Validation
+		</title>
+		
+		<script type = "text/javascript" src = "date_validate.js">
+		</script>
+	</head>
+	<body>
+	<div id = "big_wrapper">
+		<h2> Enter your details in the below text boxes </h2>
+			<table  cellspacing = "5px" >
+				<tbody>
+					<tr> 
+						<th> Name </th>
+						<td> <input id = "name" type = "text" placeholder = "First name and last name" onkeyup = "validateName()"><label id = "name_test" >  </label> </td>
+					</tr>
+					<tr> 
+						<th> Place </th>
+						<td> <input id = "place" type = "text" placeholder = "Location" onkeyup = "validatePlace()"><label id = "place_test" > </label> </td>
+					</tr>
+					<tr>
+						<th> Date of Birth </th>
+						<td> <input id = "dob" type = "text" placeholder = "mm/dd/yyyy" onkeyup = "validateDOB()" ><label id = "dob_test" > </label></td>
+					</tr>
+					<tr>
+						
+						<td> <button type = "button" id = "btn" onclick = "display()"> Submit </button> </td>
+					</tr>
+				</tbody>
+			</table>
+			<br><br>	
+			<h2> Details entered by you </h2>
+			<table cellspacing = "5px">
+				<tbody>
+					<tr>
+						<th> Name: </th>
+						<td class = "name"></td>
+					</tr>
+					<tr>
+						<th> Place: </th>
+						<td class = "place"></td>
+					</tr>
+					<tr>
+						<th> Date of Birth: </th>
+						<td class = "dob"></td>
+					</tr>
+				</tbody>
+			</table>
+					
+		</div>
+			
+	
+		
+	</div>
+		<style type="text/css">
+		
+		
+		th {
+			text-align: left;
+		}
+		#big_wrapper {
+			height: 100%;
+			width: 600px;
+			border: 2px solid black;
+		}
+		input {
+			padding: 10px;
+		
+		}
+		button {
+			padding: 8px 20px;
+		}
+		
+		
+
+		</style>
+	</body>
+</html>

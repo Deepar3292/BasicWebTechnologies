@@ -66,9 +66,9 @@ img.mobile  {
 	opacity: 1;
 }
 
-a.arrow {
-  
-  color: #2C7DE6;
+ul.style {
+
+	list-style-type: none;
 }
 
 a:hover {
@@ -151,5 +151,22 @@ input {
 	height: 30px;
 	size: 50px;
 	float: right;
-	position: relative;
+	
 }
+#submit {
+	margin-right: -300px;
+	width: 100px;
+	color: blue;
+}
+#mid_portion {
+	margin: 200px;
+	line-height: 0;
+	
+	
+}
+#mid_portion a img:hover {
+	height: 300px;
+	width: 500px;
+}
+
+
